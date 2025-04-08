@@ -10,7 +10,9 @@ const Home = () => {
     "Dinosaurs lived on all continents, including Antarctica.",
     "The smallest dinosaur was about the size of a chicken.",
     "The largest dinosaur, Argentinosaurus, could weigh up to 100 tons.",
-    "Birds are the only living descendants of dinosaurs."
+    "Birds are the only living descendants of dinosaurs.",
+    "The longest dinosaur name is Micropachycephalosaurus.",
+    "Nyasasaurus may be the earliest known dinosaur, dating to the late Anisian stage, about 243 million years ago, 10 to 15 million years older than any previously described dinosaur"
   ];
 
   const toggleFunFact = () => {
