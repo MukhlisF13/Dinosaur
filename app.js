@@ -1,15 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './app.css';
-
-
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Dinosaurs from './pages/Dinosaurs';
+import Dinosaurs from './pages/Dinosaurs'; 
 import DinosaurMedia from './pages/DinosaurMedia';
-import Merch from './pages/Merch';
-import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
+import Merch from './pages/Merch'; 
+import Contact from './pages/Contact'; 
+import NotFound from './pages/NotFound'; 
 
 const App = () => {
   return (
@@ -28,7 +25,5 @@ const App = () => {
     </BrowserRouter>
   );
 };
-
-
 
 export default App;
