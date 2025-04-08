@@ -4,7 +4,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import AllDinosaurs from './pages/AllDinosaurs';
+import Dinosaurs from './pages/Dinosaurs';
 import DinosaurMedia from './pages/DinosaurMedia';
 import Merch from './pages/Merch';
 import Contact from './pages/Contact';
