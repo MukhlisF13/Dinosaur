@@ -1,34 +1,27 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './app.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './navbar';
+import Home from './home';
+import Dinosaurs from './dinosaurs';
+import Media from './media';
+import Merch from './merch';
+import Contact from './contact';
 
-
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Dinosaurs from './pages/Dinosaurs';
-import DinosaurMedia from './pages/DinosaurMedia';
-import Merch from './pages/Merch';
-import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
-
-const App = () => {
+function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <div className="container">
+    <Router>
+      <div>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dinosaurs" element={<Dinosaurs />} />
-          <Route path="/media" element={<DinosaurMedia />} />
+          <Route path="/media" element={<Media />} />
           <Route path="/merch" element={<Merch />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
-};
-
-
+}
 
 export default App;
