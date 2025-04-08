@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Home from './Home';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-const Index = () => {
-  return <Home />;
-};
-
-export default Index;
-
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
