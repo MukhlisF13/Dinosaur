@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
-import App from './App';
+import Home from './home';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
