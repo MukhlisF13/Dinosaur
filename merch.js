@@ -1,4 +1,4 @@
-import React, { useState }from `react`;
+import React, { useState } from 'react';
 
 const merchItems = [
 {}
@@ -50,3 +50,5 @@ Add to Cart
   </div>
   );
 };
+
+export default Merch;
