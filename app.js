@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar';
-import Home from './pages/home';
-import Dinosaurs from './pages/dinosaurs'; 
-import DinosaurMedia from './pages/dinosaurMedia';
-import Merch from './pages/merch'; 
-import Contact from './pages/contact'; 
-import NotFound from './pages/notFound'; 
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Dinosaurs from './pages/Dinosaurs'; 
+import DinosaurMedia from './pages/DinosaurMedia';
+import Merch from './pages/Merch'; 
+import Contact from './pages/Contact'; 
+import NotFound from './pages/NotFound'; 
 
 const App = () => {
   return (
