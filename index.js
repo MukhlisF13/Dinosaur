@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 import './index.css';
-import Home from './home';
+import App from './App'; // Adjust path as necessary
 
 const container = document.getElementById('root');
 const root = createRoot(container);
