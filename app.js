@@ -5,7 +5,7 @@ import Home from './pages/home';
 import Dinosaurs from './pages/dinosaurs'; 
 import DinosaurMedia from './pages/dinosaurMedia';
 import Merch from './pages/merch'; 
-import Contact from './pages/ccontact'; 
+import Contact from './pages/contact'; 
 import NotFound from './pages/notFound'; 
 
 const App = () => {
