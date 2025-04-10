@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Dinosaurs from './pages/Dinosaurs'; 
 import DinosaurMedia from './pages/DinosaurMedia';
-import Merch from './pages/Nerch'; 
+import Merch from './pages/Merch'; 
 import Contact from './pages/Contact'; 
 import NotFound from './pages/NotFound'; 
 
