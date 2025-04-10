@@ -15,4 +15,4 @@ const NotFound = () => {
 );
 };
 
-export default notFound;
+export default NotFound;
