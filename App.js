@@ -17,10 +17,10 @@ const App = () => {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/dinosaurs" element={<Dinosaurs />} />
-          <Route path="/media" element={<DinosaurMedia />} />
-          <Route path="/merch" element={<Merch />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Dinosaurs" element={<Dinosaurs />} />
+          <Route path="/Media" element={<DinosaurMedia />} />
+          <Route path="/Merch" element={<Merch />} />
+          <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
