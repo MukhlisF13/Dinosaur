@@ -112,4 +112,4 @@ required
 );
 };
 
-export default contact;
+export default Contact;
