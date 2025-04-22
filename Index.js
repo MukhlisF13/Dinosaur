@@ -1,8 +1,8 @@
 import React from 'react';
-import Home from '/home';
+import Home from '/Home';
 
 const Index = () => {
-  return Home /;
+  <return Home /;>
 };
 
 export default Index;
